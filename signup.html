@@ -1,16 +1,74 @@
 <!DOCTYPE html>
-<html lang = "en">
-	<head>
-		<meta charset="utf-8">
-		<title>Scrum2Website</title>
-	</head>
-	<body>
-		<header class = "container">
-			<h1>Scrum2Website</h1>
-		</header>
-		<section class = "container">
-			<h3>Thank you for Visiting!</h3>
-			<h3>Unfortunately this website is still under construction. hello</h3>
-		</section>
-	</body>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>MTBcaffe - Signup</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+<body bgcolor="#99ccff">
+<header class="container">
+    <table>
+        <tr>
+            <th><a href="index.html"><h4>Home</h4></th>
+            <th><a href="signup.html"><h4>Sign up</h4></th>
+            <th><a href="activities.html"><h4>Events and activities</h4></th>
+            <th><a href="clubShop.html"><h4>Shop</h4></th>
+            <th><a href="news.html"><h4>News</h4></th>
+            <th><a href="about.html"><h4>About us</h4></th>
+            <th><a href="contacts.html"><h4>Contact us</h4></th>
+        </tr>
+    </table>
+    <div align="center"><h1>Club Sign-up Form</h1>
+</header>
+<section class="container">
+    <p>
+
+        Gender:<br>
+    <form>
+        First name:<br>
+        <input type="text" name="Your firstname"><br>
+        Last name:<br>
+        <input type="text" name="Your lastname"><br>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other<br>
+        Address:<br>
+        <input type="text" name="Your address"><br>
+        Postcode:<br>
+        <input type="text" name="Your postcode"><br>
+        Town/City:<br>
+        <input type="text" name="Your Town/City"><br>
+        E-mail:<br>
+        <input type="text" name="Your e-mail"><br>
+        Telephone number:<br>
+        <input type="text" name="Your telephone number"><br>
+    <input type="radio" name="discipline" value="Marathon" checked> Marathon<br>
+    <input type="radio" name="discipline" value="Cross country"> Cross country<br>
+    <input type="radio" name="discipline" value="Enduro"> Enduro<br>
+    <input type="radio" name="discipline" value="Downhill"> Downhill<br>
+    <input type="radio" name="discipline" value="Other"> Other<br><br>
+    <a href="submission_success.html"><button type="button" onclick="alert('Submission completed')">Submit</button></a>
+
+    </form>
+    </p>
+
+
+</section>
+</body>
 </html>
